@@ -1,0 +1,8 @@
+.body{
+    background-color: lightBlue;
+}
+
+#canvas{
+    margin: auto;
+    border: 6px solid black;
+}
