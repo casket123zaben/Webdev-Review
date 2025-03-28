@@ -1,0 +1,15 @@
+h1 {
+    color: blue;
+  }
+  
+  .div_class {
+    background-color: green;
+  }
+  
+  #canvas_id {
+    border: 5px dashed gainsboro;
+    display: block;
+    margin: auto;
+    background-color: black;
+  }
+  
