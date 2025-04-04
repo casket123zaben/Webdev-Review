@@ -13,16 +13,13 @@ var color_paddle = 0;
 var position_paddle = 0;
 /paddle creation function/
 function paddle(){
-    context.startPath();
-    ctx.lineWidth = 4;
-    ctx.moveTo(0, -5);
-    ctx.lineTo(-10, 15);
-    ctx.lineTo(10, 15);
-    ctx.closePath();
-    ctx.strokeStyle = "white";
-    ctx.stroke();
-    ctx.fillStyle = "white";
-    ctx.fill();
+    context.rect(40,50,12,16);
+    context.strokeStyle = "white";
+    context.lineWidth = 10;
+    context.stroke();
+    context.fillStyle = "white";
+    context.fill();
+    context.closePath();
 }
 /circle creation function/
 function circle(){
